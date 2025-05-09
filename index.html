@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABCGT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css" integrity="sha512-pJrGHWDVOeiy4UkMtHu0fpD8oLLssFcaW0fsVXUkA1/jDLopa554Z1AZo5SKtekHnnmyat0ipiP0snKDrt0GNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+<div class="maincontainer">
+
+<div class="maintitle">
+    <h1>Abstract <br>Competitive<br>Card Game The</h1>
+
+    <h2 id="h2">A game where players choose cards then perform the actions stated on the cards.</h2>
+    <div id="decorline"></div>
+</div>
+
+<div class="colorh">
+    <p id="A" >A</p>
+    <p id="B" >B</p>
+    <p id="C" >C</p>
+    <p id="G" >G</p>
+    <p id="T" >T</p>
+</div>
+
+<img id="mainimg" src="tempabcpic.png" alt="board game promo image">
+
+<div class="slider">
+
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div id="myslides" class="swiper-wrapper">
+        <!-- Slides to be added here from JSON-->
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+    </div>
+
+<div class="cardcontainer" id="cardcontainer1">
+    <div class="card" id="card1">
+        <div class="front" id="front1">
+            <p>Hover to flip.</p>
+        </div>
+        <div class="back" id="back1">
+            <p>Title back of card</p>
+            <p>card card 1 content text card 1 content text1 content text</p>
+        </div>
+    </div>
+</div>
+
+<div class="cardcontainer" id="cardcontainer2">
+    <div class="card" id="card2">
+        <div class="front" id="front2">
+            <p>Flip this card to sign up for game announcements.</p>
+        </div>
+        <div class="back" id="back2">
+            <p>Leave your email / say hi below to sign up for game announcements.</p>
+
+            <form class="emaillist" action="https://formsubmit.co/hanjo9601@gmail.com" method="post">
+                <input type="email" name="Email" placeholder="Email" value="">
+                <textarea name="Message" placeholder="Message" ></textarea>
+                <button type="submit" name="Send"></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="cardcontainer" id="contactcardcontainer">
+    <div class="card" id="contactcard">
+        <div id="contactfront">
+            <p>Designer: Joseph Kananack <br> jkananack@gmail.com <br> 818-434-3802</p>
+            <img id="contactcardimg" src="tilda1.png" alt="cardimg">
+        </div>
+        <div id="contactback">
+            <p>This is my contact card.</p>
+        </div>
+    </div>
+</div>
+
+
+<div id="footerspace"></div>
+
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js" integrity="sha512-k2o1KZdvUi59PUXirfThShW9Gdwtk+jVYum6t7RmyCNAVyF9ozijFpvLEWmpgqkHuqSWpflsLf5+PEW6Lxy/wA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="script.js"></script>
+
+  </body>
+</html>
