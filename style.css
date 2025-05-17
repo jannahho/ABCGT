@@ -366,11 +366,11 @@ h1{
     }
 
     h1{
-        /* margin-left: 7vw; */
+        width: 50vw;
     }
 
     #h2{
-        /* width: 50vw; */
+        width: 40vw;
         text-align: right;
         font-size: 1.5em;
 
@@ -419,5 +419,7 @@ h1{
         width: 60vw;
         justify-self: center;
     }
+
+
 
 }
