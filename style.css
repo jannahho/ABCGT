@@ -350,7 +350,8 @@ h1{
       /* max-width: 100vw; */
       display: grid;
       grid-template-areas:
-      "maintitle "
+      "maintitle"
+      "subheader"
       "photo"
       "slider"
       "card1"
@@ -362,6 +363,8 @@ h1{
       z-index: 0;
       grid-gap: 10vh;
       color: white;
+      margin-left: 0;
+      margin-right: 0;
 
     }
 
@@ -370,6 +373,9 @@ h1{
     }
 
     #h2{
+        grid-area: subheader;
+
+        align-self: center;
         width: 40vw;
         text-align: right;
         font-size: 1.5em;
@@ -418,6 +424,13 @@ h1{
     #mainimg{
         width: 60vw;
         justify-self: center;
+    }
+
+    .slider{
+        justify-self: center;
+        align-self: center;
+
+
     }
 
 
