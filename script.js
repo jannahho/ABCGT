@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       "image": "cardtest7.png",
 
-      "backgroundcolor": "#9FDAF7"
+      "backgroundcolor": "#F9C5C4"
     }
 
   ];
