@@ -350,15 +350,15 @@ h1{
       /* max-width: 100vw; */
       display: grid;
       grid-template-areas:
-      "maintitle"
-      "subheader"
-      "photo"
-      "slider"
-      "card1"
-      "card2"
-      "card3"
-      "contact"
-      "foot foot foot";
+      "maintitle maintitle"
+      "subheader subheader"
+      "photo photo"
+      "slider slider"
+      "card1 card1"
+      "card2 card2"
+      "card3 card3"
+      "contact contact"
+      "foot foot";
       /* overflow:hidden; */
       z-index: 0;
       grid-gap: 10vh;
@@ -375,12 +375,12 @@ h1{
     #h2{
         grid-area: subheader;
 
-        align-self: center;
+        align-self: end;
         width: 40vw;
         text-align: right;
         font-size: 1.5em;
 
-        /* margin-right: 18vw; */
+        margin-right: 5vw;
 
     }
 
@@ -407,7 +407,8 @@ h1{
 
 
         margin-top: 50vw;
-        margin-left: 10;
+        margin-left: 10vw;
+        margin-right: 10vw;
         opacity: 95%;
         z-index: -1;
     }
