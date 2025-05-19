@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
     spaceBetween: 30,
     loop: true,
     autoplay: {
-      delay: 2500,
+      delay: 9500,
       disableOnInteraction: true,
     },
     coverflowEffect: {

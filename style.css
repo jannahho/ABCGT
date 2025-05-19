@@ -429,11 +429,18 @@ h1{
 
     .slider{
         justify-self: center;
-        align-self: center;
+    }
 
-
+    .cardcontainer{
+        justify-self: center;
     }
 
 
+}
 
+@media only screen and (max-width: 600px){
+    .slider{
+        display: none;
+    }
+    
 }
