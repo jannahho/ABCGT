@@ -457,10 +457,10 @@ h1{
     }
 
     .McontentDiv{
-      width: 32vw;
+      width: 33vh;
 
       display: grid;
-      padding: .4em;
+      /* padding: .4em; */
       grid-template-areas:
         "image"
       ;
