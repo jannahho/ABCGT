@@ -171,6 +171,10 @@ h1{
     margin-bottom: 18vh;
     user-select: none;
 }
+.Mslider{
+    display: none;
+    grid-area: slider;
+}
 
 .contentDiv{
   width: 22vw;
@@ -274,7 +278,7 @@ h1{
 }
 .emaillist>button{
     width: 2vw;
-    height: .6vw;
+    height: 1vw;
 
 }
 .emaillist>button:active{
@@ -442,5 +446,36 @@ h1{
     .slider{
         display: none;
     }
-    
+
+    .Mslider{
+        display: block;
+        grid-area: slider;
+        /* height: 100vh; */
+        /* width: 80vw; */
+        margin-bottom: 18vh;
+        user-select: none;
+    }
+
+    .McontentDiv{
+      width: 32vw;
+
+      display: grid;
+      padding: .4em;
+      grid-template-areas:
+        "image"
+      ;
+
+      justify-self: center;
+      align-self: center;
+      border-radius: 1rem;
+    }
+
+    .MprojectImage{
+      grid-area: image;
+      justify-self: center;
+      width: 100%;
+      border-radius: 1rem;
+
+    }
+
 }
